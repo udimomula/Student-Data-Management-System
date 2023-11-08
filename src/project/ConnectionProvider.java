@@ -15,7 +15,7 @@ public class ConnectionProvider {
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/utk","root","tiger");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/example_folder_name","root","   ");//Enter your sql password
             return con;
         
         }
